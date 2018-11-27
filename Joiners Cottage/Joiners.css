@@ -54,24 +54,34 @@ ul.respnav li.right {float: left;}
 .datecheck {
   margin: auto;
   width: 50%;
-  height: 125px;
-  width: 600px;
+  height: 75px;
+  width: 500px;
+  padding: 50px 25px 30px 100px;
   background-color: #c6c6c6;
   box-shadow: 5px 5px 3px #777777;
 }
 
 .from {
+  color: #5C5C5C;
   display: inline-block;
-  margin: auto;
-  height: 75px;
-  width: 200px;
-  background-color: #ffffff;
 }
 
 .too {
+  color: #5C5C5C;
   display: inline-block;
-  margin: auto;
-  height: 75px;
-  width: 200px;
-  background-color: #ffffff;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #CCCCCC;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555555;
 }
