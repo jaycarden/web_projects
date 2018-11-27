@@ -3,8 +3,41 @@ body {
 }
 
 h3 {
-font: Arial;
+font-family: Arial;
 font-size: 30px;
-font-align: center;
-font-color: #798835;
+text-align: left;
+padding-top: 30px;
+padding-left: 30px;
+font: #798835;
+}
+
+ul.respnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.respnav li {float: left;}
+
+ul.respnav li a {
+    display: block;
+    color: white;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.respnav li a:hover:not(.active) {background-color: #111;}
+
+ul.respnav li a.active {background-color: #4CAF50;}
+
+ul.respnav li.right {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.respnav li.right,
+    ul.respnav li {float: none;}
 }
