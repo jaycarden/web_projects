@@ -53,6 +53,7 @@ ul.respnav li.right {float: left;}
 
 .datecheck {
   margin: auto;
+  border-radius: 10px;
   width: 50%;
   height: 75px;
   width: 500px;
