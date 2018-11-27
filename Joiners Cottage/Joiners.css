@@ -11,12 +11,9 @@ body {
 
 h3 {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 20px;
   text-align: left;
-  padding-top: 235px;
-  padding-left: 30px;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 ul.respnav {
@@ -48,4 +45,33 @@ ul.respnav li.right {float: left;}
 @media screen and (max-width: 600px){
     ul.respnav li.right,
     ul.respnav li {float: none;}
+}
+
+.block1 {
+  margin-top: 30px;
+}
+
+.datecheck {
+  margin: auto;
+  width: 50%;
+  height: 125px;
+  width: 600px;
+  background-color: #c6c6c6;
+  box-shadow: 5px 5px 3px #777777;
+}
+
+.from {
+  display: inline-block;
+  margin: auto;
+  height: 75px;
+  width: 200px;
+  background-color: #ffffff;
+}
+
+.too {
+  display: inline-block;
+  margin: auto;
+  height: 75px;
+  width: 200px;
+  background-color: #ffffff;
 }
