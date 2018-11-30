@@ -54,9 +54,9 @@ li a:hover:not(.active) {
     margin-right: auto;
 }
 .img1 {
-  background-image:url("Newcastle1.png");
-  width:100%;
-  height:100%;
-  background-repeat:no-repeat;
-  background-size:cover
+    background-image:url("Newcastle1.png");
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover
 }
