@@ -42,7 +42,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -75,6 +75,26 @@ li a:hover:not(.active) {
 .foot {
   background-color: #0080ab;
   height: 240px;
+}
+
+.submenu {
+  padding-right: 80px;
+  padding-top: 70px;
+  padding-left: 40px;
+  float: right;
+  display: inline;
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.submenu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.submenu a:hover:not(.active) {
+    color: #cdcdcd;
 }
 
 .logo1 {
